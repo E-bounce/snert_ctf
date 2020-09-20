@@ -1,0 +1,6 @@
+version: '3'
+services:
+ happy_flask:
+   build: .
+   ports:
+    - "8042:8042"

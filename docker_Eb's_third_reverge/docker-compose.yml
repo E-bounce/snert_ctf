@@ -1,0 +1,6 @@
+version: '3'
+services:
+ djang_pickle:
+   build: .
+   ports:
+    - "8093:8000"

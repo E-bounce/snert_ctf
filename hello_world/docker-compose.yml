@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web_world:
+    build: .
+    ports:
+      - "8017:80"
+    volumes:
+    - ./sandbox.ini:/usr/local/etc/php/conf.d/sandbox.ini

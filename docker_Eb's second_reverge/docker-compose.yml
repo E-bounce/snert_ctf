@@ -1,0 +1,6 @@
+version: '3'
+services:
+ easy:
+   build: .
+   ports:
+    - "8066:80"

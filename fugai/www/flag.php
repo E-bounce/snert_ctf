@@ -1,0 +1,2 @@
+<?php
+$flag = "snert{xxxxxxxxxx}";

@@ -1,0 +1,6 @@
+version: '3'
+services:
+ serialize:
+   build: .
+   ports:
+    - "8043:80"
